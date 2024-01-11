@@ -1,0 +1,73 @@
+.music-player {
+  position: relative;
+}
+
+.music-player-background {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 466px;
+  height: 711px;
+  border-radius: 32px;
+  background: rgb(229 207 207 / 75%);
+  box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+}
+.song-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.duration-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  top: 60%;
+}
+
+#duration {
+  width: 80%;
+  margin: 0 10px;
+}
+
+#start-track,
+#end-track {
+  font-size: 14px;
+}
+.video-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.video-controls button {
+  border: none;
+  background-color: transparent;
+}
+.taylor-swift-photo {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  width: 258.021px;
+  height: 258.021px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.vinyl-disc-photo {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  width: 242.361px;
+  height: 242.361px;
+  flex-shrink: 0;
+}
